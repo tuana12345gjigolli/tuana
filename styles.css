@@ -1,0 +1,137 @@
+body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+header{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+nav ul{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li {
+display: inline;
+margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h2{
+    color: aquamarine;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    background-color: url('little\ stars.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: whitesmoke;
+    padding: 30px;
+}
+.hero .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.hero .content {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+}
+
+.hero h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: cadetblue;
+}
+
+.hand {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    
+}
+.title {
+    font-size: 24px;
+    color: #6d4c41;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grup-moshat-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.grup-moshat {
+    text-align: center;
+}
+
+.grup-moshat img {
+    width: 100px; 
+    height: auto;
+}
+
+.grup-moshat p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.activity {
+    background-color: #ffeeaa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #ff6600;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+h4{
+    color: cadetblue;
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 247, 170);
+    text-align: center;
+}
+
+header {
+    background-color: aquamarine;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.582);
+}
+
+.about {
+    margin: 30px auto;
+    width: 80%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+p{
+    font-size: 20pxpx;
+    margin-top: 10px;
+    color: cadetblue;
+}
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(11, 218, 149);
+}
+h2{
+    color: lightseagreen;
+}
